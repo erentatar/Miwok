@@ -21,6 +21,16 @@ public class Word {
         mAudioResourceId = audioResourceId;
     }
 
+    @Override
+    public String toString() {
+        return "Word{" +
+                "mDefaultTranslation='" + mDefaultTranslation + '\'' +
+                ", mMiwokTranslation='" + mMiwokTranslation + '\'' +
+                ", mAudioResourceId=" + mAudioResourceId +
+                ", mImageResourceId=" + mImageResourceId +
+                '}';
+    }
+
     public String getDefaultTranslation() {
         return mDefaultTranslation;
     }
